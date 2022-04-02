@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#form-details-section {
+  display: flex;
+}
+
+#user-details-container {
+  padding: 1rem;
+  width: 50%;
+}
+
+.details-header {
+  width: 100%;
+  display: flex;
+}
+
+.details-heading {
+  flex-grow: 1;
+}
+
+.details-row {
+  padding-top: 1rem;
+}
+
+form {
+  padding: 1rem;
+  width: 50%;
+  margin-top: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+}
+
+.form-group input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  flex-grow: 10;
+  padding: 0.3rem;
+}
+
+input[type="submit"] {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 0.2rem;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.form-group label {
+  flex-grow: 1;
+  flex-basis: 5rem;
+  padding-right: 1rem;
+}
+
+.alert-container {
+  padding: 0 1rem;
+}
+
+#alert {
+  margin-top: 1rem;
+  min-height: 3rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0 1rem;
+}
+
+.alert-success {
+  background: rgb(180, 255, 180);
+  border: 1px solid rgb(23, 169, 0);
+  color: rgb(16, 117, 0);
+  line-height: 3rem;
+}
+
+.alert-error {
+  background: rgb(255, 140, 140);
+  border: 1px solid rgb(215, 0, 0);
+  color: rgb(102, 0, 0);
+}
+
+.user-table {
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  all: unset;
+  color: whitesmoke;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: dodgerblue;
+}
+
+.btn-delete {
+  background-color: rgb(230, 33, 33);
+}
+
+.btn-update {
+  background-color: dodgerblue;
+}
+
+.btn-cancel {
+  background-color: slategray;
+}
+
+.btn-select {
+  background-color: #333;
+}
+
+td input[type="text"],
+td input[type="email"],
+td input:read-only {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid rgb(25, 98, 215);
+  border-radius: 0.2rem;
+  background-color: whitesmoke;
+  padding: 0.5rem 0.3rem;
+  width: 100%;
+}
+
+td input:read-only {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: unset;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+table,
+tr,
+thead {
+  width: 100%;
+}
+
+th {
+  width: 19%;
+}
+
+thead {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+th:nth-child(5),
+th:nth-child(6),
+th:nth-child(7) {
+  width: 8%;
+}
+
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+td:nth-child(5),
+td:nth-child(6) {
+  text-align: center;
+}
+
+td:nth-child(7) > button {
+  margin: 0 auto;
+}
