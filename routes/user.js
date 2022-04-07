@@ -10,6 +10,7 @@ router.post(
   body("firstname", "First name is required").not().isEmpty(),
   body("lastname", "Last name is required").not().isEmpty(),
   body("email", "Email not valid").isEmail(),
+  validation.request,
   userController.addUser
 );
 

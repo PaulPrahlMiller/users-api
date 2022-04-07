@@ -10,8 +10,9 @@ A crud API to create users that are displayed in a table
 2. Add a .env file to the root  
    `touch .env`
 
-3. Inside the .env file add the following environment variable  
-   DATABASE_URL = <Your mongoDB url string>
+3. Inside the .env file add the following environment variables
+   DATABASE_URL = url string for mongoDB
+   PORT = The port to run your app
 
 4. Run the server  
    `npm run dev`

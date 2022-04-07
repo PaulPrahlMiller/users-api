@@ -8,9 +8,17 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+i {
+  color: #999;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 #form-details-section {
@@ -80,13 +88,13 @@ input[type="submit"] {
   width: 100%;
   border-radius: 0.25rem;
   padding: 0 1rem;
+  line-height: 3rem;
 }
 
 .alert-success {
   background: rgb(180, 255, 180);
   border: 1px solid rgb(23, 169, 0);
   color: rgb(16, 117, 0);
-  line-height: 3rem;
 }
 
 .alert-error {
@@ -102,34 +110,29 @@ input[type="submit"] {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
-button {
+i {
   all: unset;
-  color: whitesmoke;
-  padding: 0.15rem 0.5rem;
-  border-radius: 0.25rem;
+  color: #777;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
-.btn-edit {
-  background-color: dodgerblue;
+.fa-check {
+  color: rgb(14, 243, 29);
 }
 
-.btn-delete {
-  background-color: rgb(230, 33, 33);
+.fa-trash {
+  color: rgb(240, 30, 30);
 }
 
-.btn-update {
-  background-color: dodgerblue;
+.fa-info {
+  color: dodgerblue;
 }
 
-.btn-cancel {
-  background-color: slategray;
-}
-
-.btn-select {
+.btn-details {
   background-color: #333;
 }
 
